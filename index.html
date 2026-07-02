@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Summer Music Fest 2026 — Festival musik terbesar di Indonesia">
+  <title>Summer Music Fest 2026</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">Summer Fest</a>
+      <nav class="nav" aria-label="Navigasi utama">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#date" class="nav-link">Date</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" type="button">
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <h1 class="hero-title">Summer Music Fest 2026</h1>
+        <p class="hero-tagline">Feel the beat, live the moment</p>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-content">
+          <p>
+            Summer Music Fest 2026 adalah festival musik terbesar yang menghadirkan
+            lebih dari 50 artis lokal dan internasional dari berbagai genre — pop, rock,
+            EDM, dan R&amp;B — dalam satu panggung megah.
+          </p>
+          <p>
+            Diselenggarakan di tengah musim panas, konser ini menawarkan pengalaman
+            live music yang tak terlupakan dengan stage production kelas dunia,
+            food festival, dan area interaktif untuk semua pengunjung.
+          </p>
+          <p>
+            Bergabunglah dengan ribuan music lovers dan rasakan energi musik yang
+            membara di malam yang penuh warna dan kegembiraan.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="date" class="section date-section">
+      <div class="container">
+        <h2 class="section-title">Date &amp; Venue</h2>
+        <div class="date-grid">
+          <article class="date-card">
+            <h3 class="date-card-label">Tanggal</h3>
+            <p class="date-card-value">15 Agustus 2026</p>
+          </article>
+          <article class="date-card">
+            <h3 class="date-card-label">Waktu</h3>
+            <p class="date-card-value">18:00 – 23:59 WIB</p>
+          </article>
+          <article class="date-card">
+            <h3 class="date-card-label">Lokasi</h3>
+            <p class="date-card-value">Gelora Bung Karno, Jakarta</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <h2 class="footer-title">Contact</h2>
+      <ul class="contact-list">
+        <li>
+          <a href="mailto:info@summermusicfest.com" class="contact-link">info@summermusicfest.com</a>
+        </li>
+        <li>
+          <a href="https://instagram.com/summermusicfest" class="contact-link" target="_blank" rel="noopener noreferrer">@summermusicfest</a>
+        </li>
+        <li>
+          <a href="https://wa.me/6281234567890" class="contact-link" target="_blank" rel="noopener noreferrer">+62 812-3456-7890</a>
+        </li>
+      </ul>
+      <p class="footer-copy">&copy; 2026 Summer Music Fest. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    const icon = toggle.querySelector('.theme-icon');
+
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      const isDark = document.body.classList.contains('dark');
+      icon.textContent = isDark ? '☀️' : '🌙';
+      toggle.setAttribute('aria-label', isDark ? 'Toggle light mode' : 'Toggle dark mode');
+    });
+  </script>
+</body>
+</html>
