@@ -1,12 +1,13 @@
-# Summer Music Fest 2026
+# World Tour Summer Festival 2026
 
 Website informasi konser single-page untuk Hands-On Module 1 WebDev GDGOC ITB.
 
 ## Struktur Halaman
 
-- **Home** — Nama konser dan tagline
-- **About** — Deskripsi festival
-- **Date** — Tanggal, waktu, dan lokasi
+- **Home** — Nama festival dengan background foto konser
+- **About** — Deskripsi world tour
+- **Date** — 10 kota ibu kota dunia (box vertikal) + tombol Book Ticket
+- **book-ticket.html** — Halaman pemesanan tiket
 - **Footer** — Kontak (email, Instagram, WhatsApp)
 
 ## Fitur
@@ -30,7 +31,10 @@ Tidak ada dependency atau build step — cukup HTML + CSS.
 ```
 .
 ├── index.html
+├── book-ticket.html
 ├── styles.css
+├── assets/
+│   └── hero-concert.png
 └── README.md
 ```
 
