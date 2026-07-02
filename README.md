@@ -4,11 +4,11 @@ Website informasi konser single-page untuk Hands-On Module 1 WebDev GDGOC ITB.
 
 ## Struktur Halaman
 
-- **Home** — Nama festival dengan background foto konser
-- **About** — Deskripsi world tour
-- **Date** — 10 kota ibu kota dunia (box vertikal) + tombol Book Ticket
-- **book-ticket.html** — Halaman pemesanan tiket
-- **Footer** — Kontak (email, Instagram, WhatsApp)
+- **Home** - Nama festival dengan background foto konser
+- **About** - Deskripsi world tour
+- **Date** - 10 kota ibu kota dunia (box vertikal) + tombol Book Ticket
+- **book-ticket.html** - Halaman pemesanan tiket
+- **Footer** - Kontak (email, Instagram, WhatsApp)
 
 ## Fitur
 
@@ -24,7 +24,7 @@ Website informasi konser single-page untuk Hands-On Module 1 WebDev GDGOC ITB.
 1. Clone atau buka folder proyek ini
 2. Buka `index.html` di browser modern (Chrome, Firefox, Edge)
 
-Tidak ada dependency atau build step — cukup HTML + CSS.
+Tidak ada dependency atau build step - cukup HTML + CSS.
 
 ## Struktur File
 
@@ -37,17 +37,6 @@ Tidak ada dependency atau build step — cukup HTML + CSS.
 │   └── hero-concert.png
 └── README.md
 ```
-
-## Lighthouse Audit (Bonus 3)
-
-Jalankan Lighthouse di Chrome DevTools (tab Lighthouse → Analyze page load).
-
-| Metrik        | Before | After |
-|---------------|--------|-------|
-| Performance   | _TBD_  | _TBD_ |
-| Accessibility | _TBD_  | _TBD_ |
-
-_Screenshot before/after dapat ditambahkan di folder `docs/` setelah audit._
 
 ## Teknologi
 
